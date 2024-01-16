@@ -33,23 +33,24 @@
 function convertTemperature(celsius){
 
      //create the array that will be returned
-        let arr
+        let arr = [];
 
     //create variable to hold kelvin value
         //convert Celsius to kelvin
         // add it to the array
         let kelvin;
-        
-        arr.push();
+        kelvin = celsius + 273.15;
+        arr.push(kelvin);
 
 
 
         //create variable to hold Fahrenheit value
         //convert Celsius to Fahrenheit
         // add it to the array
-       
-        fahrenheit = (1.80);
-        
+        let fahrenheit;
+        fahrenheit = celsius * 1.80 + 32.00;
+        // fahrenheit = (1.80);
+        arr.push(fahrenheit);
 
 
         //return the ans array

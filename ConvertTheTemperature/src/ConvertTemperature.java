@@ -37,28 +37,28 @@ public class ConvertTemperature {
         public static double[] convertTemperature(double celsius) {
 
             //create the array that will be returned
-             arr = new double[2]
+            double[] arr = new double[2];
 
             //create variable to hold kelvin value (should be a double)
             //convert Celsius to kelvin
             // add it to the array
-            char kelvin;
-
-            arr[] = kelvin
+            double kelvin;
+            kelvin = celsius + 273.15;
+            arr[0] = kelvin;
 
 
             //create variable to hold Fahrenheit value (should be a double)
             //convert Celsius to Fahrenheit
             // add it to the array
-            int fahrenheit;
-
-            arr[] = fahrenheit
+            double fahrenheit;
+            fahrenheit = celsius * 1.80 + 32.00;
+            arr[1] = fahrenheit;
 
 
             //return the ans array
-            return arr
+            return arr;
 
 
         }
-
+        
 }
